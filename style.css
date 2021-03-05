@@ -10,13 +10,27 @@ html {
   background-size: cover;
 }
 
-.left-sidebar {
+.bar {
   position: relative;
   background-color: coral;
   height: 5%;
 }
 
-.right-sidebar-content {
+.icon-g1 {
+  position: absolute;
+  width: 45px;
+}
+.icon-g2 {
+  position: absolute;
+  width: 60px;
+  top: 5px;
+  left: 60px;
+}
+.icon-g3 {
+  position: absolute;
+  top: 2px;
+  width: 38px;
+  left: 140px;
 }
 
 /* Extra small devices (phones, 600px and down) */
