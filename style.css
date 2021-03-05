@@ -37,6 +37,32 @@ html {
   left: 140px;
 }
 
+.main-content {
+  position: absolute;
+  width: 900px;
+  height: 500px;
+  border: 1px solid red;
+  left: 500px;
+  margin: 10px;
+  top: 100px;
+  font-size: large;
+  font-style: oblique;
+}
+
+.main-content-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.middle-content-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
