@@ -49,17 +49,17 @@ html {
   font-style: oblique;
 }
 
-.main-content-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-
 .middle-content-header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  text-align: justify;
+}
+
+.signature {
+  display: flex;
+  justify-content: right;
   padding: 10px;
 }
 
